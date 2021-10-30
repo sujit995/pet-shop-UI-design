@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import './styles.scss';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const LoginForm = () => {
     return (
@@ -14,8 +15,8 @@ const LoginForm = () => {
                 </div>
                 <input type="submit" value="sign in" className="btn btn-primary" />
                 <div className="links">
-                    <Link to="/forgetpassword" className="link">forget password</Link>
-                    <Link to="/Sign Up" className="link">Sign Up</Link>
+                    <Link smooth to="#forgetpassword" className="link">forget password</Link>
+                    <Link smooth to="Sign Up" className="link">Sign Up</Link>
                 </div>
             </form>
         </>
