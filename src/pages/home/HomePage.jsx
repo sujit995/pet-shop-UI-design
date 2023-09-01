@@ -1,9 +1,10 @@
 import React from 'react'
 import './styles.scss';
-import wave from '../images/bottom_wave.png';
+import wave from '../../images/bottom_wave.png';
 
 const Home = () => {
     return (
+        <>
         <section className="home" id="home">
             <div className="content">
                 <h3><span>hi</span> Welcome to our pet shop</h3>
@@ -11,6 +12,7 @@ const Home = () => {
             </div>
             <img src={wave} alt="wave-img" className="wave"/>
         </section>
+        </>
     )
 }
 

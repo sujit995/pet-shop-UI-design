@@ -1,11 +1,11 @@
 import React from 'react';
 import './styles.scss';
-import img1 from '../images/product_01.jpg'
-import img2 from '../images/product_02.jpg'
-import img3 from '../images/product_03.jpg'
-import img4 from '../images/product_04.jpg'
-import img5 from '../images/product_05.jpg'
-import img6 from '../images/product_06.jpg'
+import img1 from '../../images/product_01.jpg'
+import img2 from '../../images/product_02.jpg'
+import img3 from '../../images/product_03.jpg'
+import img4 from '../../images/product_04.jpg'
+import img5 from '../../images/product_05.jpg'
+import img6 from '../../images/product_06.jpg'
 
 const product = [
     {
@@ -47,7 +47,7 @@ const Shop = () => {
                 {
                     product.map((items) => {
                         return (
-                            <div className="box">
+                            <div className="shopbox">
                                 <div className="icons">
                                     <a href="#" className="fas fa-shopping-cart"></a>
                                     <a href="#" className="fas fa-heart"></a>

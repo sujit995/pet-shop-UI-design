@@ -1,10 +1,10 @@
 import React from 'react';
 import './styles.scss';
-import about from '../images/about_img.png';
-import dogfood from '../images/dog_food.png'
-import shopdog from '../images/shop_now_dog.png';
-import catfood from '../images/cat_food.png';
-import catshop from '../images/shop_now_cat.png';
+import about from '../../images/about_img.png';
+import dogfood from '../../images/dog_food.png'
+import shopdog from '../../images/shop_now_dog.png';
+import catfood from '../../images/cat_food.png';
+import catshop from '../../images/shop_now_cat.png';
 
 const About = () => {
     return (

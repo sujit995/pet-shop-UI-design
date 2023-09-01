@@ -1,0 +1,81 @@
+.about {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  
+    .image {
+      flex: 1 1 40rem;
+  
+      img {
+        width: 100%;
+      }
+    }
+    .content {
+      flex: 1 1 40rem;
+      h3 {
+        color: var(--black);
+        font-size: 4rem;
+        span {
+          color: var(--orange);
+        }
+      }
+      p {
+        font-size: 1.4rem;
+        color: var(--light);
+        padding: 2rem 2.5rem 1rem 0;
+        line-height: 1.5;
+      }
+    }
+  }
+  
+  .dog-food,
+  .cat-food {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+  
+    .image {
+      flex: 1 1 40rem;
+  
+      img {
+        width: 100%;
+      }
+    }
+    .content {
+      flex: 1 1 40rem;
+      text-align: center;
+      padding: 2rem;
+  
+      h3 {
+        font-size: 3.5rem;
+        color: var(--black);
+  
+        span {
+          color: var(--orange);
+        }
+      }
+      p {
+        padding: 1rem 0;
+        line-height: 2;
+        color: var(--light);
+        font-size: 1.6rem;
+      }
+      .amount {
+        font-size: 3.5rem;
+        color: var(--black);
+        padding: 0.5rem 0;
+      }
+      img {
+        height: 15rem;
+        margin-top: 1rem;
+        &:hover {
+          transform: rotate(15deg);
+        }
+      }
+    }
+  }
+  .cat-food {
+    flex-wrap: wrap-reverse;
+  }

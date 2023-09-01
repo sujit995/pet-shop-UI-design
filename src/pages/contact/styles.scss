@@ -1,0 +1,38 @@
+.contact {
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-top: 40px;
+    .image {
+      flex: 1 1 40rem;
+      img {
+        width: 100%;
+      }
+    }
+    form {
+      flex: 1 1 40rem;
+      padding: 2rem 7%;
+    }
+    h3 {
+      font-size: 3rem;
+      padding-bottom: 1rem;
+      color: var(--black);
+    }
+    .inputbox,
+    textarea {
+      width: 100%;
+      border-bottom: var(--border);
+      border-width: 0.1rem;
+      font-size: 1.6rem;
+      text-transform: none;
+      color: var(--black);
+      padding: 1.5rem 0;
+      margin: 1rem 0;
+    }
+    textarea {
+      height: 15rem;
+      resize: none;
+    }
+  }

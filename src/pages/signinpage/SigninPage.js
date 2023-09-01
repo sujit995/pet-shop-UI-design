@@ -2,9 +2,9 @@ import React from 'react'
 import './styles.scss';
 import { HashLink as Link } from 'react-router-hash-link';
 
-const LoginForm = () => {
+const SigninPage = () => {
     return (
-        <>
+        <div className="form_box">
             <form action="" className="login-form">
                 <h3>Sign In</h3>
                 <input type="email" name="email" placeholder="enter your email" id="" className="box" />
@@ -16,11 +16,11 @@ const LoginForm = () => {
                 <input type="submit" value="sign in" className="btn btn-primary" />
                 <div className="links">
                     <Link smooth to="#forgetpassword" className="link">forget password</Link>
-                    <Link smooth to="Sign Up" className="link">Sign Up</Link>
+                    <Link smooth to="/signup" className="link">Sign Up</Link>
                 </div>
             </form>
-        </>
+        </div>
     )
 }
 
-export default LoginForm
+export default SigninPage
